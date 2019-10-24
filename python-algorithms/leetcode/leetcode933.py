@@ -14,4 +14,5 @@ class RecentCounter:
 
 # Your RecentCounter object will be instantiated and called as such:
 # obj = RecentCounter()
-# param_1 = obj.ping(t)
+# param_
+# 1 = obj.ping(t)
