@@ -8,5 +8,8 @@ def gcd(a, b):
         a, b = b, a%b
     return a
 
+def lcm(a, b):
+    return int((a * b) / gcd(a, b))
 
-print(gcd(357, 234))
+
+print(gcd(86, 42))
