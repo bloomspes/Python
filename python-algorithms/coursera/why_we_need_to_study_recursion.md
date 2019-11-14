@@ -84,9 +84,19 @@ else:
 
 ## GCD 구하기
 ### What is a GCD?
-- for integers, a and b, ither greatest commond divisor or gcd(a, b) is the largest integer d so that d divides both a and b.
+- for integers, a and b, either greatest common divisor or gcd(a, b) is the largest integer d so that d divides both a and b.
 
 - G(a, b)는 a_prime = a%b 일 때, G(b, a_prime)으로 구할 수 있습니다.
+
+### Runtime 문제 해결하기
+- Each step reduces the size of numbers by about a factor of 2.
+- Takes about log(ab) steps.
+- GCDs of 100 digit numbers takes about 600 steps.
+- Each step a single division.
+
+## LCM 구하기
+### What is a LCM?
+- for integers, a and b, either least common multiple or lcm(a, b) is the smallest number L so that L is a multiples b and divides gcd(a, b)
 
 ## Divide and Conquer
 ### 분할 정복 이론은 큰 범주에서의 재귀와 같습니다.
