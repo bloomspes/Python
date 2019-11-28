@@ -1,5 +1,5 @@
 # 단순 팩토리얼 계산
-
+# python 3
 
 def factorial(n):
     result = 1

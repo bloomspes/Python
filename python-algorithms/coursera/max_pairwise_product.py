@@ -23,7 +23,7 @@ def max_pairwise_product_fast(n, numbers):
 
     return numbers[max_index1] * numbers[max_index2]
 
-
+# print out
 if __name__ == '__main__':
     n = int(input())
     a = [int(x) for x in input().split()]
